@@ -12,9 +12,21 @@
 # }
 # PS1='\n\e[38;5;211m$(shortwd)\e[38;5;48m $(git_branch)\e[0m$'
 # export PS1
+
+# echo "Enter any number"
+# read n
+
+# if [[ ( $n -eq 15 || $n  -eq 45 ) ]]
+# then
+# echo "You won the game"
+# else
+# echo "You lost the game"
+# fi
+
+git add . && git commit -m 'added bash script file' && git push origin webtopc
 #
 # num_dirs=3
 # pwd_symbol="..."
 # newPWD="${PWD/#$HOME/~}"
 # echo Hello World!
-echo "${PWD/#$HOME/~}"
+#echo "${PWD/#$HOME/~}"
