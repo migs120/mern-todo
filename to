@@ -86,4 +86,21 @@ remote:      https://github.com/migs120/mern-todo/network/alerts[K
 remote: 
 To https://github.com/migs120/mern-todo.git
    10374a8..0f07157  webtopc -> webtopc
-]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranc
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranch.sh[1@2
+[webtopc 6a6658b] {}
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+Username for 'https://github.com': migs120
+Password for 'https://migs120@github.com': 
+Counting objects: 4, done.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 990 bytes | 70.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+remote: 
+remote: GitHub found 3 vulnerabilities on migs120/mern-todo's default branch (3 high). To find out more, visit:[K
+remote:      https://github.com/migs120/mern-todo/network/alerts[K
+remote: 
+To https://github.com/migs120/mern-todo.git
+   0f07157..6a6658b  webtopc -> webtopc
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one2" && ./bashbranch.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmyfunc(a) {
+bas

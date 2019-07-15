@@ -23,7 +23,8 @@
 # echo "You lost the game"
 # fi
 
-git add . && git commit -m $MESSAGE && git push origin (git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/')
+brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
+git add . && git commit -m "{$message}" && git push origin $brnh
 #
 # num_dirs=3
 # pwd_symbol="..."
