@@ -22,9 +22,14 @@
 # else
 # echo "You lost the game"
 # fi
+# run by
+# message="new one2" && ./gitthis.sh
 
+
+myfunc() {
 brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
-git add . && git commit -m "{$message}" && git push origin $brnh
+git add . && git commit -m "{$1}" && git push origin $brnh
+}
 #
 # num_dirs=3
 # pwd_symbol="..."

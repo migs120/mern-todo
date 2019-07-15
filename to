@@ -103,4 +103,40 @@ remote:
 To https://github.com/migs120/mern-todo.git
    0f07157..6a6658b  webtopc -> webtopc
 ]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one2" && ./bashbranch.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmyfunc(a) {
-bas
+bash: syntax error near unexpected token `a'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ git add . && git commit -m "{$a}" && git push origin $brnh
+[webtopc 7e5b84d] {}
+ 3 files changed, 23 insertions(+), 2 deletions(-)
+Username for 'https://github.com': migs120
+Password for 'https://}migs120@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/migs120/mern-todo.git/'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ git push origin webtopc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch
+[?1h=  master[m[m
+* [32mwebtopc[m[m
+[K[?1l>]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ git branchadd . && git commit -m "{$a}" && git push origin $brnhbrnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'[11Pgit add . && git commit -m "{$a}" && git push origin $brnhbranch[K[Kgit push orivin [K[K[K[Kgin webtopc
+Username for 'https://github.com': migs120
+Password for 'https://migs120@github.com': 
+Counting objects: 5, done.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 858 bytes | 66.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+remote: 
+remote: GitHub found 3 vulnerabilities on migs120/mern-todo's default branch (3 high). To find out more, visit:[K
+remote:      https://github.com/migs120/mern-todo/network/alerts[K
+remote: 
+To https://github.com/migs120/mern-todo.git
+   6a6658b..7e5b84d  webtopc -> webtopc
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ myfunc() {
+> brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
+> git add . && git commit -m "{$1}" && git push origin $brnh
+> }
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ myfunc()")")[C[1P)[1P)t)h)e) )n)e)w) )o)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)")")t")h")e") ")n")e")w") ")o")n")e")
+bash: syntax error near unexpected token `"the new one"'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ myfunc("the new one")[1P)[C[1P[1@{[C[C[C[C[C[C[C[C[C[C[C})[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)t)h)i)[1P)e)_)n)e)w)_)o)n)e)
+bash: syntax error near unexpected token `the_new_one'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ myfunc(the_new_one)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)')')h')a')y')
+bash: syntax error near unexpected token `'hay''
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[
