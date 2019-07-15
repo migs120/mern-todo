@@ -51,4 +51,14 @@ hello
 message
 ]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ echo message$message
 hello
-]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ messag[K[K[K[K[K[Kmessage=""n"e"w" "o"n"e"[C && ./bashbrab[K[Kanch.sh
+Aborting commit due to empty commit message.
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranch.sh
+[webtopc 58f4dc7] {}
+ 3 files changed, 87 insertions(+), 1 deletion(-)
+ create mode 100644 gitthis.sh
+ create mode 100644 to
+./bashbranch.sh: line 26: ${ (git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/') }: bad substitution
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranch.sh
+./bashbranch.sh: line 26: syntax error near unexpected token `('
+./bashbranch.sh: line 26: `git add . &&
