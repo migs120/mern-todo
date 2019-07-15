@@ -61,4 +61,12 @@ Aborting commit due to empty commit message.
 ./bashbranch.sh: line 26: ${ (git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/') }: bad substitution
 ]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranch.sh
 ./bashbranch.sh: line 26: syntax error near unexpected token `('
-./bashbranch.sh: line 26: `git add . &&
+./bashbranch.sh: line 26: `git add . && git commit -m "{$message}" && git push origin (git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/') '
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ message="new one" && ./bashbranch.sh
+./bashbranch.sh: line 25: syntax error near unexpected token `2'
+./bashbranch.sh: line 25: `brnh=(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/') '
+[webtopc 8b4580d] {}
+ 2 files changed, 13 insertions(+), 3 deletions(-)
+error: src refspec brnh does not match any.
+error: failed to push some refs to 'https://github.com/migs120/mern-todo.git'
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ [K]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ m
