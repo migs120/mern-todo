@@ -160,3 +160,22 @@ To https://github.com/migs120/mern-todo.git
 gitthis: command not found
 ]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ gitthis() {
 > brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
+> git add . && git commit -m "{$1}" && git push origin $brnh
+> }
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs@DESKTOP-D0N86F2[00m:[01;34m/mnt/c/Users/migs9/Desktop/projects/mern-todo[00m$ git [Kthis ''b[Kb'e'r'[1P'[1P'e't't'e'r' 'e'a's'y'
+[webtopc 65256e1] {better easy}
+ 2 files changed, 24 insertions(+), 3 deletions(-)
+Username for 'https://github.com': migs120
+Password for 'https://migs120@github.com': 
+Counting objects: 4, done.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 595 bytes | 54.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+remote: 
+remote: GitHub found 3 vulnerabilities on migs120/mern-todo's default branch (3 high). To find out more, visit:[K
+remote:      https://github.com/migs120/mern-todo/network/alerts[K
+remote: 
+To https://github.com/migs120/mern-todo.git
+   e7d4717..65256e1  webtopc -> webtopc
+]0;migs@DESKTOP-D0N86F2: /mnt/c/Users/migs9/Desktop/projects/mern-todo[01;32mmigs

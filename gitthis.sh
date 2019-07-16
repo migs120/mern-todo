@@ -27,7 +27,8 @@
 # or
 # gitthis "the new one"
 
-gitthis() {
+gitsave() {
+    
 brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 git add . && git commit -m "{$1}" && git push origin $brnh
 }
