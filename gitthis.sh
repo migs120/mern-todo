@@ -28,13 +28,20 @@
 # gitthis "the new one"
 
 gitsave() {
-    
+
 brnh=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
 git add . && git commit -m "{$1}" && git push origin $brnh
 }
-#
+
 # num_dirs=3
 # pwd_symbol="..."
 # newPWD="${PWD/#$HOME/~}"
 # echo Hello World!
 #echo "${PWD/#$HOME/~}"
+
+
+
+
+
+
+
