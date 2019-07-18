@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { cpus } from 'os';
+//import queryString from 'query-string';
 export default class EditTodo extends Component {
-
+    
     constructor(props) {
         super(props)
         this.state = {
@@ -20,7 +21,7 @@ export default class EditTodo extends Component {
     onChangeTodoDescription(e) {
         this.setState({ todo_description: e.target.value })
     }
-
+    
     onChangeTodoResponsible(e) {
         this.setState({ todo_responsible: e.target.value })
     }
@@ -35,42 +36,68 @@ export default class EditTodo extends Component {
         })
     }
     onSubmit(e) {
-        e.preventDefault();
-        const url = "http://localhost:4000/todos/update/" + this.props.match.params.id
-        const obj = {
-            todo_description: this.state.todo_description,
-            todo_responsible: this.state.todo_responsible,
-            todo_priority: this.state.todo_priority,
-            todo_completed: this.state.todo_completed
-        }
-        axios.post(url, obj)
-            .then(response => {
-                this.setState({
-                    todos: response.data
-                })
-            })
-            .catch(function (err) {
-                console.log(err);
-            })
+                    e.preventDefault();
+                   // const url = "http://localhost:4000/todos/update/" + window.location.href.slice(27)
+                    const url = "http://localhost:4000/todos/update/" + this.props.match.params.id
+                    const obj = {
+                        todo_description: this.state.todo_description,
+                        todo_responsible: this.state.todo_responsible,
+                        todo_priority: this.state.todo_priority,
+                        todo_completed: this.state.todo_completed
+                    }
 
-        this.props.history.push('/')
-    }
-    componentDidMount() {
-        const url = "http://localhost:4000/todos/" + this.props.match.params.id
-        axios.get(url)
-            .then(response => {
-                this.setState({
-                    todo_description: response.data.todo_description,
-                    todo_responsible: response.data.todo_responsible,
-                    todo_priority: response.data.todo_priority,
-                    todo_completed: response.data.todo_completed,
+                    
 
-                })
-            })
-            .catch(err => { console.log(err) })
-    }
+
+                    axios.post(url, obj)
+                        .then(response =>  console.log(this.props.editFormPlacers, this.props.editfa, this.editfa())
+                                        //  {
+                                        //     this.setState({
+                                        //         todos: response.data
+                                        //     })
+                                        //   }
+                        )
+                        .catch(function (err) {
+                            console.log(err)
+                        })
+                        //active={this.props.location.pathname.includes('/')}
+                    //     console.log(this.props.history.location.state);
+                    //     console.log('line 64',this.props.history,'end line 64')
+                        this.props.history.push('/')
+                        //window.location.replace('/')
+                        //window.pathname.replace('/')
+                }
+     componentDidMount() {  
+        //console.log('commount58')
+                           // const url = "http://localhost:4000/todos/" + window.location.href.slice(27)
+                            const url = "http://localhost:4000/todos/" + this.props.match.params.id
+                            axios.get(url)
+                                .then( //response => console.log(response.data)
+                                        response => 
+                                                    {
+                                                    this.setState({
+                                                                    todo_description: response.data.todo_description,
+                                                                    todo_responsible: response.data.todo_responsible,
+                                                                    todo_priority: response.data.todo_priority,
+                                                                    todo_completed: response.data.todo_completed
+
+                                                                    })
+                                                    }
+                                    )
+                                 .catch(err => { console.log(err) })
+                         }
+
+    componentWillUnmount() {
+                                this._isMounted = false;
+                            }
+                            
     render() {
+        // let url = this.props.location.search;
+        // let params = queryString.parse(url);
+        console.log(window.location.href.slice(27));
+        //{console.log(this.pathname)}
         return (
+            
             <div>
                 <form onSubmit={this.onSubmit}>
                     <div className="modal is-active">
@@ -132,7 +159,11 @@ export default class EditTodo extends Component {
                                 </div>
                             </section>
                             <footer className="modal-card-foot">
-                                <button className="button is-success">Save changes</button>
+                                <button className="button is-success" 
+                                // onClick={
+                                //     this.props.editfa.bind( 'hay')
+                                //     }
+                                    >Save changes</button>
                                 <button className="button">Cancel</button>
                             </footer>
                         </div>
